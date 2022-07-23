@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/orange"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Your Logo"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_marginTop="60dp"
+            android:gravity="center"/>
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="180dp"
+            android:background="@drawable/rasm_holos"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="All Your Favourite Dishes"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:layout_marginTop="30dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="al;dalksf s;.lkvjn;lk/ xjhildkjfbhjkl ekljhfblnk. djlhgour"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:layout_marginTop="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="al;dalksf s;.lkvjn;lk/ xjhildkjfbhjkl ekljh"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:layout_marginTop="5dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.7"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="8dp"
+                android:layout_height="19dp"
+                android:backgroundTint="#2FFFFFFF"
+                android:layout_gravity="top"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="7dp"
+                android:layout_height="18dp"
+                android:backgroundTint="@color/white"
+                android:layout_marginStart="3dp"
+                android:layout_gravity="top"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="8dp"
+                android:layout_height="19dp"
+                android:backgroundTint="#2FFFFFFF"
+                android:layout_marginStart="3dp"
+                android:layout_gravity="top"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:orientation="vertical"
+        android:background="@drawable/edit_shape"
+        android:gravity="center">
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Get started"
+            android:backgroundTint="#4CAF50"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginBottom="10dp"
+            android:padding="15dp"
+            app:cornerRadius="15dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Log in"
+            android:backgroundTint="#373737"
+            android:layout_marginHorizontal="30dp"
+            android:padding="15dp"
+            app:cornerRadius="15dp" />
+
+    </LinearLayout>
+
+</LinearLayout>
